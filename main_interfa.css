@@ -1,0 +1,41 @@
+.head_world{
+    display: block;
+    height: 100px;
+    background-color: #1e1e1e;
+    font-size:xx-large;
+    font-weight: bolder;
+    line-height: 100px;
+    font-family: Arial, Helvetica, sans-serif; 
+    color: aliceblue;
+    text-align: center;
+
+}
+.picture_right{
+    float: right;
+    opacity:1;
+}
+.picture_left{
+    float: left;
+    opacity: 1;
+}
+
+.rebel{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    font-weight: bolder;
+    position: absolute;
+    top: 250px;
+    left: 33px;
+    font-size: 30px;
+}
+.gentle{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(20, 21, 23);
+    font-weight: bolder;
+    position: absolute;
+    top: 250px;
+    right: 33px;
+    font-size: 30px;
+}

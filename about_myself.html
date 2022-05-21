@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="D:\Web\css\mysel_css.css">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my world</title>
+    <style>
+        
+    #up_center{text-align: center; 
+        font-size: 40px;
+        font-family: "微雅软黑";
+        color: rgb(94, 165, 142);
+        font-weight: 800;
+        }
+
+    </style>
+
+
+</head>
+<body class="body">
+    <ul class="ul_one">
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#Secret">Secret</a></li>
+        <li><a href="#Darkness">Darkness</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+
+    <p id="up_center">请填写你的真实信息</p>
+<form class="form1">
+    <table align="center" cellpadding="5" cellspaching="10" class="table1">
+    
+        <thead class="header">
+            <tr>
+                <th>类型</th> <th>填写信息</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+               <td>称谓</td> <td><input type="text"maxlength="10"></td>
+            </tr>
+            <tr>
+                <td>出生地</td> <td>
+                    <span class="dropdown">
+                    <button class="dropbtn">你的出生地</button>
+                    <span class="dropdown-content">
+                    <a href="#">阿尔及尼亚</a>
+                    <a href="#">休斯顿</a>
+                    <a href="#">萨拉担负</a>
+                    <a href="#">阿拉斯加</a>
+                    <a selected="selected" class="china" href="#">中国</a>
+                    <a href="#">冰岛</a>
+
+                </td></span></span>
+            </tr>
+            <tr>
+                <td>性格</td> <td><ul>
+                    <li><label for="lengmo">冷漠</label><input type="checkbox" name="only_tianxing" id="lengmo" value="冷漠"></li>
+                    <li><label for="reqing">热情</label><input type="checkbox" name="only_tianxing" id="reqing" value="热情"></li>
+                    <li><label for="gupi">孤僻</label><input type="checkbox" name="only_tianxing" id="gupi" value="孤僻"></li>
+                    <li><label for="suihe">随和</label><input type="checkbox" name="only_tianxing" id="suihe" value="随和"></li>
+                </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>性别</td> <td><label for="nv">女</label><input type="radio" name="only_sex" id="nv" value="女">
+                    <label for="nan">男</label><input type="radio" name="only_sex" id="nan" value="男">
+                </td>
+            </tr>
+            <tr>
+                <td>请简述你加入my world的理由</td> <td><textarea cols="10" rows="5" id ="delete_line">请务必真诚</textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>密码（以后将成为通行证请务必保存好,长度不超过10）</td><td><input type="password" maxlength="10"></td>
+            </tr>
+            <tr>
+                <td>上传照片</td><td><input type="file "> </td>
+            </tr>
+            <tr>
+                <td>资质验证</td> <td><input type="button" value="短信验证码"></td>
+            </tr>
+        </tbody>
+
+
+    
+    </table>
+</form>
+<div class="none">1</div>
+<div class="slip"> <a href="#"> 跳过注册，以陌生人身份进入</a></div>
+
+
+
+
+
+
+</body>
+</html>
